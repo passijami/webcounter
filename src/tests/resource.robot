@@ -18,3 +18,7 @@ Open And Configure Browser
     New Context
     New Page  about:blank
 
+Reset Counter
+    Go To    ${HOME_URL}
+    Click    button >> text=Nollaa
+

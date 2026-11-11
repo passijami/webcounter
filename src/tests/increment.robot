@@ -1,7 +1,9 @@
 *** Settings ***
-Resource  resource.robot
-Suite Setup  Open And Configure Browser
-Suite Teardown  Close Browser
+Resource    resource.robot
+
+Suite Setup    Open And Configure Browser
+Test Setup    Reset Counter
+Suite Teardown    Close Browser
 
 *** Test Cases ***
 At start the counter is zero
